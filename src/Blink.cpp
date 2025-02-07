@@ -1,3 +1,13 @@
+/*
+  Title: Blinky
+  Author: David Elmo Ross
+  Date: Feb 6th, 2025
+  Description: This program blinks the BUILT IN Led on the
+               ESP-WROVER and displays the LED ON/OFF status
+               on the screen. This is synchronized by using
+               the  fflush(stdout);  statement.
+*/
+
 #include "Arduino.h"
 
 #define LED_BUILTIN  2
